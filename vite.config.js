@@ -3,7 +3,6 @@ import react from "@vitejs/plugin-react";
 import { resolve } from "path";
 
 export default defineConfig({
-  base: "/likebutton/",
   plugins: [react()],
   server: {
     port: 3001, // Serviremos o componente em localhost:3001

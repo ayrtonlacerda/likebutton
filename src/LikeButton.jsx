@@ -8,6 +8,8 @@ const LikeButton = () => {
   return (
     <>
       <p>Like Button from Microservice UHULLL</p>
+      <p>Deu certo PRA caramba</p>
+      <p>Deu certo PRA caramba 2x</p>
       <button onClick={() => setLikes(likes + 1)}>React Likes: {likes}</button>
 
       <ProgressBar completed={60} />
