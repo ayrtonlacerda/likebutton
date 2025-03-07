@@ -7,7 +7,7 @@ const LikeButton = () => {
 
   return (
     <>
-      <p>Like Button from Microservice</p>
+      <p>Like Button from Microservice UHULLL</p>
       <button onClick={() => setLikes(likes + 1)}>React Likes: {likes}</button>
 
       <ProgressBar completed={60} />
