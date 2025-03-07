@@ -1,13 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
+import ProgressBar from "@ramonak/react-progress-bar";
 
-/*const LikeButton = () => {
-  const [likes, setLikes] = React?.useState(0);
+const LikeButton = () => {
+  const [likes, setLikes] = useState(0);
+  const [isClick, setClick] = useState(false);
 
   return (
-    <button onClick={() => setLikes(likes + 1)}>React Likes: {likes}</button>
-  );
-};*/
+    <>
+      <p>Like Button from Microservice</p>
+      <button onClick={() => setLikes(likes + 1)}>React Likes: {likes}</button>
 
-const LikeButton = () => <p>Like Button from Microservice</p>;
+      <ProgressBar completed={60} />
+    </>
+  );
+};
+
+//const LikeButton = () => <p>Like Button from Microservice</p>;
 
 export default LikeButton;
