@@ -11,6 +11,9 @@ const LikeButton = () => {
       <p>Deu certo PRA caramba</p>
       <p>Deu certo PRA caramba 2x</p>
       <p>Deu certo PRA caramba 3x</p>
+      <br />
+      <p>Deu certo PRA caramba 4x</p>
+      <p>Valeu adailton</p>
       <button onClick={() => setLikes(likes + 1)}>React Likes: {likes}</button>
 
       <ProgressBar completed={60} />
