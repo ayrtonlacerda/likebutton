@@ -6,6 +6,10 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 3001, // Serviremos o componente em localhost:3001
+    cors: {
+      origin: "*", // Permite requisições de qualquer origem
+      methods: ["GET", "HEAD", "PUT", "POST", "DELETE", "PATCH"],
+    },
   },
   build: {
     rollupOptions: {
